@@ -53,7 +53,7 @@ jupyter notebook Clustering.ipynb
 
 - seaborn
 
-= mlxtend
+- mlxtend
 
 A requirements.txt file can be generated on request if missing.
 
