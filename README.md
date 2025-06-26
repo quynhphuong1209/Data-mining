@@ -87,4 +87,5 @@ jupyter notebook
 - 🧾 Các bài tập, kiểm tra, ứng dụng đầy đủ bằng Python và C#
 - 📊 Dữ liệu thực tế: Mall_Customers.csv, EmpSal.ipynb, v.v.
 
-# 💡 Gợi ý mở rộng: Bạn có thể tích hợp đồ thị tương tác với Plotly, xuất báo cáo tự động bằng nbconvert, hoặc triển khai mô hình đơn giản với Streamlit để nâng cao repo này hơn nữa.
+# 💡 Gợi ý mở rộng: 
+Bạn có thể tích hợp đồ thị tương tác với Plotly, xuất báo cáo tự động bằng nbconvert, hoặc triển khai mô hình đơn giản với Streamlit để nâng cao repo này hơn nữa.
