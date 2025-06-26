@@ -6,26 +6,30 @@
 
 ## 📁 Cấu trúc thư mục chính
 
+
+## 📁 Cấu trúc thư mục
+
+```plaintext
 Data-mining/
-├── Exercises/ # Các bài notebook chính về khai phá dữ liệu
-│ ├── Clustering.ipynb # Phân cụm: K-Means, Hierarchical
-│ ├── Classification.ipynb # Phân loại: Decision Tree, KNN, Random Forest
-│ ├── Association.ipynb # Luật kết hợp: Apriori, FP-Growth
-│ ├── Regression.ipynb # Hồi quy tuyến tính và đa thức
-│ ├── Dimensionality.ipynb # Giảm chiều: PCA, t-SNE
-│ ├── Preprocessing.ipynb # Tiền xử lý dữ liệu: xử lý thiếu, mã hóa, chuẩn hóa
-│ └── Logistic_Regression.ipynb # Hồi quy Logistic
+├── Exercises/                         # Các bài notebook chính về khai phá dữ liệu
+│   ├── Clustering.ipynb              # Phân cụm: K-Means, Hierarchical
+│   ├── Classification.ipynb         # Phân loại: Decision Tree, KNN, Random Forest
+│   ├── Association.ipynb            # Luật kết hợp: Apriori, FP-Growth
+│   ├── Regression.ipynb             # Hồi quy tuyến tính và đa thức
+│   ├── Dimensionality.ipynb         # Giảm chiều: PCA, t-SNE
+│   ├── Preprocessing.ipynb          # Tiền xử lý dữ liệu: xử lý thiếu, mã hóa, chuẩn hóa
+│   └── Logistic_Regression.ipynb    # Hồi quy Logistic
 │
-├── datamining/ # Thư mục bài tập lớn nhóm và ứng dụng
-│ ├── ConsoleApp1/ # Bài kiểm tra thực hành viết bằng C# (.NET)
-│ │ ├── Program.cs
-│ │ ├── ConsoleApp1.sln
-│ │ └── obj/...
-│ ├── EmpSal.ipynb # Dự đoán lương nhân viên
-│ ├── mall_customers.ipynb # Phân cụm khách hàng (KMeans)
-│ ├── marketing.ipynb # Phân tích dữ liệu marketing
-│ ├── Mall_Customers.csv # Dataset khách hàng
-│ ├── Ktra1/ # Bài kiểm tra số 1 (có cả file .rar)
+├── datamining/                       # Thư mục bài tập lớn nhóm và ứng dụng
+│   ├── ConsoleApp1/                 # Bài kiểm tra thực hành viết bằng C# (.NET)
+│   │   ├── Program.cs
+│   │   ├── ConsoleApp1.sln
+│   │   └── obj/...
+│   ├── EmpSal.ipynb                 # Dự đoán lương nhân viên
+│   ├── mall_customers.ipynb        # Phân cụm khách hàng (KMeans)
+│   ├── marketing.ipynb             # Phân tích dữ liệu marketing
+│   ├── Mall_Customers.csv          # Dataset khách hàng
+│   ├── Ktra1/                      # Bài kiểm tra số 1 (có cả file .rar)
 │
 ├── KHAI_THÁC_CHUỖI_KÍ_HIỆU_VÀ_SINH_HỌC.ipynb
 ├── KHAI_THÁC_CHUỖI_THỜI_GIAN.ipynb
@@ -33,12 +37,12 @@ Data-mining/
 ├── KHAI_THÁC_DỮ_LIỆU_THỐNG_KÊ_VÀ_KHAI_THÁC_DỮ_LIỆU_HÌNH_ẢNH,_ÂM_THANH.ipynb
 ├── ỨNG_DỤNG_KHAI_THÁC_DỮ_LIỆU.ipynb
 
-├── Nhóm 6- Khai phá dữ liệu.docx # Báo cáo bài tập lớn
-├── Nhóm 6- Khai phá dữ liệu.pdf # Bản PDF báo cáo
-├── README.md # Tài liệu này
+├── Nhóm 6- Khai phá dữ liệu.docx     # Báo cáo bài tập lớn
+├── Nhóm 6- Khai phá dữ liệu.pdf      # Bản PDF báo cáo
+├── README.md                         # Tài liệu này
 
 ---
-
+```
 ## 🎯 Mục tiêu dự án
 
 - Thực hành triển khai các kỹ thuật khai phá dữ liệu:
