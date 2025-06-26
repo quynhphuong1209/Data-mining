@@ -5,10 +5,6 @@
 ---
 
 ## 📁 Cấu trúc thư mục chính
-
-
-## 📁 Cấu trúc thư mục
-
 ```plaintext
 Data-mining/
 ├── Exercises/                         # Các bài notebook chính về khai phá dữ liệu
