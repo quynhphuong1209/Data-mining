@@ -1,63 +1,90 @@
-# 🧠 Data Mining - Course Project
+# 🧠 Khai phá dữ liệu - Dự án môn học
 
-This repository contains practical exercises and final project notebooks for the **Data Mining** course. The goal is to apply core data mining techniques to real-world datasets using Python.
+Đây là repo tổng hợp các bài thực hành, bài kiểm tra và bài tập lớn trong môn học **Khai phá dữ liệu**. Các nội dung được triển khai bằng **Python** (Jupyter Notebook) và một phần thực hiện bằng **ngôn ngữ C# (.NET)** cho bài kiểm tra ứng dụng.
 
-## 📚 Contents
+---
 
-The repository is organized into multiple topics in data mining:
+## 📁 Cấu trúc thư mục chính
 
-| 📁 Notebook Name        | 📝 Topic                             | ✅ Status |
-|------------------------|--------------------------------------|----------|
-| `Clustering.ipynb`     | K-Means, Hierarchical Clustering     | ✅ Done   |
-| `Classification.ipynb` | Decision Tree, Random Forest, KNN    | ✅ Done   |
-| `Association.ipynb`    | Association Rules (Apriori, FP-Growth)| ✅ Done   |
-| `Regression.ipynb`     | Linear & Polynomial Regression       | ✅ Done   |
-| `Dimensionality.ipynb` | PCA, t-SNE                           | ✅ Done   |
-| `Preprocessing.ipynb`  | Data Cleaning, Encoding, Scaling     | ✅ Done   |
+Data-mining/
+├── Exercises/ # Các bài notebook chính về khai phá dữ liệu
+│ ├── Clustering.ipynb # Phân cụm: K-Means, Hierarchical
+│ ├── Classification.ipynb # Phân loại: Decision Tree, KNN, Random Forest
+│ ├── Association.ipynb # Luật kết hợp: Apriori, FP-Growth
+│ ├── Regression.ipynb # Hồi quy tuyến tính và đa thức
+│ ├── Dimensionality.ipynb # Giảm chiều: PCA, t-SNE
+│ ├── Preprocessing.ipynb # Tiền xử lý dữ liệu: xử lý thiếu, mã hóa, chuẩn hóa
+│ └── Logistic_Regression.ipynb # Hồi quy Logistic
+│
+├── datamining/ # Thư mục bài tập lớn nhóm và ứng dụng
+│ ├── ConsoleApp1/ # Bài kiểm tra thực hành viết bằng C# (.NET)
+│ │ ├── Program.cs
+│ │ ├── ConsoleApp1.sln
+│ │ └── obj/...
+│ ├── EmpSal.ipynb # Dự đoán lương nhân viên
+│ ├── mall_customers.ipynb # Phân cụm khách hàng (KMeans)
+│ ├── marketing.ipynb # Phân tích dữ liệu marketing
+│ ├── Mall_Customers.csv # Dataset khách hàng
+│ ├── Ktra1/ # Bài kiểm tra số 1 (có cả file .rar)
+│
+├── KHAI_THÁC_CHUỖI_KÍ_HIỆU_VÀ_SINH_HỌC.ipynb
+├── KHAI_THÁC_CHUỖI_THỜI_GIAN.ipynb
+├── KHAI_THÁC_ĐỒ_THỊ_VÀ_MẠNG.ipynb
+├── KHAI_THÁC_DỮ_LIỆU_THỐNG_KÊ_VÀ_KHAI_THÁC_DỮ_LIỆU_HÌNH_ẢNH,_ÂM_THANH.ipynb
+├── ỨNG_DỤNG_KHAI_THÁC_DỮ_LIỆU.ipynb
 
-> All notebooks include visualizations, performance metrics, and code explanations.
+├── Nhóm 6- Khai phá dữ liệu.docx # Báo cáo bài tập lớn
+├── Nhóm 6- Khai phá dữ liệu.pdf # Bản PDF báo cáo
+├── README.md # Tài liệu này
 
-## 🔍 Project Goals
+---
 
-- Understand and implement key data mining techniques.
-- Apply algorithms to structured datasets (CSV, Excel).
-- Evaluate model performance using relevant metrics.
-- Use Python libraries such as `pandas`, `scikit-learn`, `mlxtend`, and `seaborn`.
+## 🎯 Mục tiêu dự án
 
-## 🛠️ How to Run
+- Thực hành triển khai các kỹ thuật khai phá dữ liệu:
+  - Phân cụm, phân loại, luật kết hợp, hồi quy, giảm chiều
+- Ứng dụng thư viện Python như: `pandas`, `scikit-learn`, `mlxtend`, `seaborn`
+- Áp dụng vào bài toán thực tế như: phân tích khách hàng, lương nhân viên, marketing
+- Làm việc nhóm và trình bày báo cáo cuối kỳ
 
-1. Clone the repository:
+---
+
+## 📦 Yêu cầu môi trường
+
+- Python 3.8 trở lên
+- Các thư viện:
+  - `pandas`
+  - `numpy`
+  - `scikit-learn`
+  - `matplotlib`
+  - `seaborn`
+  - `mlxtend`
+
+💡 Bạn có thể cài nhanh qua:
+```bash
+pip install -r requirements.txt
+```
+# ▶️ Hướng dẫn sử dụng
+1. Tải repo
 ```bash
 git clone https://github.com/quynhphuong1209/Data-mining.git
 cd Data-mining
 ```
-2. Install dependencies (using pip or conda):
+2. Mở Jupyter Notebook để chạy các file .ipynb:
 ```bash
-pip install -r requirements.txt
+jupyter notebook
 ```
-Alternatively, run directly on Google Colab if you don't want to install anything locally.
-3. Open any notebook:
-```bash
-jupyter notebook Clustering.ipynb
-```
-# 📦 Requirements
-- Python 3.8+
+3. Hoặc chạy trực tiếp trên Google Colab nếu không cài Python cục bộ.
 
-- pandas
-
-- numpy
-
-- scikit-learn
-
-- matplotlib
-
-- seaborn
-
-- mlxtend
-
-A requirements.txt file can be generated on request if missing.
-
-# 👩‍💻 Author
+# 👩‍💻 Tác giả
 - Đinh Lê Quỳnh Phương
 - GitHub: @quynhphuong1209
-- Course: Data Mining – Public Health University
+- Môn học: Khai phá dữ liệu
+- Trường: [Trường Đại học Y tế Công cộng / hoặc bạn tự điền]
+
+# 📎 Tài liệu đính kèm
+- 📄 Báo cáo nhóm: Nhóm 6 - Khai phá dữ liệu.pdf
+- 🧾 Các bài tập, kiểm tra, ứng dụng đầy đủ bằng Python và C#
+- 📊 Dữ liệu thực tế: Mall_Customers.csv, EmpSal.ipynb, v.v.
+
+# 💡 Gợi ý mở rộng: Bạn có thể tích hợp đồ thị tương tác với Plotly, xuất báo cáo tự động bằng nbconvert, hoặc triển khai mô hình đơn giản với Streamlit để nâng cao repo này hơn nữa.
